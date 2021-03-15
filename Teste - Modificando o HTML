@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de teste</title>
+</head>
+<body>
+	<div id="area">X</div>
+	<br><br>
+	<button onclick="document.getElementById('area').innerHTML = prompt('Mande uma mensagem');">Substitua o X pela mensagem</button>
+</body>
+</html>

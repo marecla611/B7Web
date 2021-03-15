@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+	<div class="container">
+		<h1>Primeiro sistema Bootstrap</h1>
+		<p>Primeiro teste.</p>
+
+	<div class="row">
+		<div class="col-sm-4" style="background-color:#BBB">A</div>
+	  	<div class="col-sm-4" style="background-color:#CCC">B</div>
+  		<div class="col-sm-4" style="background-color:#EEE">C</div>
+	</div>
+
+	<hr/>
+
+	<p>Frase de <mark>teste</mark> sobre <abbr title="Boostrap">estilos</abbr> de texto.</p>
+
+	<hr/>
+
+	<blockquote class="blockquote-reverse">
+		Frase de teste sobre estilos de texto.
+		<footer>Teste</footer>
+	</blockquote>
+
+	<hr/>
+
+	<dl>
+		<dt>Coca-Cola</dt>
+		<dd>Bebida de Cola</dd>
+	</dl>
+
+	<hr/>
+
+	<p>Para fazer uma citação no Bootstrap use <code>blockquote</code> e também <code>footer</code></footer>.</p>
+
+	<hr/>
+
+	<p>Para salvar, aperte em <kbd>ctrl + s</kbd>.</p>
+
+	<hr/>
+
+	<pre>
+		Esta tag 
+		deixa o texto
+		do jeito
+		que você
+		escreveu
+	</pre>
+
+	<hr/>
+
+	<p class="text-danger">Este tipo de texto é usado para situações de perigo</p>
+	<p class="bg-danger">Este também</p>
+	<p class="bg-success">Este representa sucesso</p>
+	<p class="bg-info">E este representa informações</p>
+	<p class="bg-warning">Este representa avisos</p>
+
+	<hr/>
+
+	<p>Para mais informações, acesse o site: https://www.w3schools.com/bootstrap/bootstrap_typography.asp</p>
+
+	<hr/>
+
+	<table class="table table-striped table-bordered table-hover"> 
+		<thead>
+			<tr >
+				<th>Nome</th>
+				<th>Sobrenome</th>
+				<th>E-mail</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="bg-success">
+				<td>Fulano</td>
+				<td>De Tal</td>
+				<td>fulano@gmail.com.br</td>
+			</tr>
+			<tr class="bg-warning">
+				<td>Ziguifrida</td>
+				<td>De Tal</td>
+				<td>ziguifrida@gmail.com.br</td>
+			</tr>
+			<tr class="bg-danger">
+				<td>Ciclano</td>
+				<td>De Tal</td>
+				<td>ciclano@gmail.com.br</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr/>
+
+	<img src="que.jpg" class="img-fluid" class="img-responsive img-thumbnail">
+
+	<hr/>
+
+	<button class="btn btn-default">Botão de teste Bootstrap</button>
+
+	<hr/>
+
+	<p>Qual empresa você prefere?</p>
+		<div class="btn-group">
+		<button class="btn btn-primary">Apple</button>
+		<button class="btn btn-primary">Samsung</button>
+		<button class="btn btn-primary">Motorola</button>
+		</div>
+
+	<hr/>
+
+	<div class="dropdown">
+
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Escolha</button>
+
+		<ul class="dropdown-menu">
+			<li class="dropdown-header">Linguagens a serem aprendidas:</li>
+			<li><a href="#">PHP</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li class="divider"></li>
+			<li><a href="#">JS</a></li>
+		</ul>
+	</div>
+
+	<hr/>
+
+	<div class="jumbotron">
+		<h1>Curso de Bootstrap</h1>
+		<p>O Bootstrap é o mais popular framework de HTML, CSS e JavaScript para a criação de designs responsivos na internet.</p>
+	</div>
+
+	<hr/>
+
+	<ul class="list-group">
+		<li class="list-group-item list-group-item-success">Item 1</li>
+		<li class="list-group-item list-group-item-info">Item 2</li>
+		<li class="list-group-item list-group-item-warning">Item 3</li>
+		<li class="list-group-item list-group-item-danger">Item 4</li>
+		<li class="list-group-item">Item 5</li>
+	</ul>
+
+	<hr/>
+
+	<form method="POST">
+
+		<div class="form-group">
+			E-mail:
+			<input type="email" name="email" class="form-control">
+		</div>
+
+		<div class="form-group">
+			Senha:
+			<input type="password" name="senha" class="form-control">
+		</div>
+			<input type="submit" name="Entrar" class="btn btn-default">
+
+	</form>
+	
+	<hr/>
+
+	</div>
+</body>
+</html>
